@@ -7,6 +7,7 @@ const getEnvs = (isTest = false) => ({
   database: isTest ? process.env.DB_TEST_DATABASE : process.env.DB_DATABASE,
   host: process.env.DB_HOSTNAME,
   port: process.env.DB_PORT,
+  logging: !isTest,
 });
 
 const envs = getEnvs();
