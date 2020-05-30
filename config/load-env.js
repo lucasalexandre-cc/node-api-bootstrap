@@ -1,5 +1,5 @@
-if (process.env.NODE_ENV === 'production') {
-  require('dotenv').config({ path: './.env.production' });
+if (process.env.NODE_ENV === "production") {
+  require("dotenv").config({ path: "./.env.production" });
 } else {
-  require('dotenv').config({ path: './.env' });
+  require("dotenv").config({ path: "./.env" });
 }

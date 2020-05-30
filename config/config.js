@@ -1,4 +1,4 @@
-require('./load-env');
+require("./load-env");
 
 const getEnvs = (isTest = false) => ({
   dialect: process.env.DB_DIALECT,
